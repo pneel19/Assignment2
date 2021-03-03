@@ -19,7 +19,8 @@ namespace Assignment2Test
             string resultArea = ts.Analyze(5, 5, 10);
             Assert.That(resultArea, Is.EqualTo("It is not a Triangle").IgnoreCase);
 
-
+            string resultArea2 = ts.Analyze(5, 5, 10);
+            Assert.That(resultArea2, Is.EqualTo("It is a triangle and triangle is Isoceles").IgnoreCase);
         }
     }
 }
